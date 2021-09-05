@@ -26,7 +26,7 @@ osmToGeojson({
         path.join(__dirname, 'gtfs.zip')
     );
 }).then(() => fs.writeFileSync(
-    path.join(__dirname, '/../../graphs/cochabamba/cochabamba.gtfs.zip'),
+    path.join(__dirname, '/../../graphs/Bolivia-Cochabamba/cochabamba.gtfs.zip'),
     fs.readFileSync(path.join(__dirname, 'gtfs.zip')
     )
 )).catch(error => console.error(error))
