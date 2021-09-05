@@ -7,10 +7,19 @@ services:
       - "8081:8081"
     volumes: 
       - ./graphs/Bolivia-Cochabamba:/app/graphs
-  otp-colombia-duitama:
+
+  otp-bolivia-la-paz:
     build: .
     ports:
       - "8082:8080"
       - "8083:8081"
+    volumes: 
+      - ./graphs/Bolivia-LaPaz:/app/graphs
+      
+  otp-colombia-duitama:
+    build: .
+    ports:
+      - "8084:8080"
+      - "8085:8081"
     volumes: 
       - ./graphs/Colombia-Duitama:/app/graphs
