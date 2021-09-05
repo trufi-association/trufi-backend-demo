@@ -13,7 +13,7 @@
 - if not exist yet your city, you can download the `osm.pbf` from your country
   - Download from `osmosis` https://github.com/openstreetmap/osmosis/tags
   - Add to your `PATH` the `/bin` folder
-  - Run the command ```sh osmosis --read-pbf file="./country-latest.osm.pbf"  --bounding-box left=bbox_left bottom=bbox_bottom right=bbox_bottom top=bbox_bottom --write-pbf file="./city-latest.osm.pbf" ```
+  - Run the command ```osmosis --read-pbf file="./country-latest.osm.pbf"  --bounding-box left=bbox_left bottom=bbox_bottom right=bbox_bottom top=bbox_bottom --write-pbf file="./city-latest.osm.pbf" ```
 - Copy the `osm.pbf` file into your city folder
 
 ## Generate GTFS file
