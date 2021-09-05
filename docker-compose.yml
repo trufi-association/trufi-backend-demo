@@ -5,6 +5,12 @@ services:
     ports:
       - "8080:8080"
       - "8081:8081"
-    restart: always
     volumes: 
       - ./graphs/Bolivia-Cochabamba:/app/graphs
+  otp-colombia-duitama:
+    build: .
+    ports:
+      - "8082:8080"
+      - "8083:8081"
+    volumes: 
+      - ./graphs/Colombia-Duitama:/app/graphs

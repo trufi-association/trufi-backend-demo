@@ -2,7 +2,7 @@ const { osmToGeojson, OSMOverpassDownloader } = require('osm-public-transport-ex
 const geojsonToGtfs = require('geojson-to-gtfs');
 const path = require("path")
 
-// bottom=-17.709721 left=-66.440262 top=-17.261759 right=-65.577835
+// left=-73.104656 bottom=5.755485 right=-72.9504 top=5.877577
 osmToGeojson({
     outputDir: __dirname,
     mapProperties: (tags) => ({
@@ -13,10 +13,10 @@ osmToGeojson({
     stopNameSeparator: ' y ',
     stopNameFallback: 'innominada',
     osmDataGetter: new OSMOverpassDownloader({
-        south: -17.709721,
-        west: -66.440262,
-        north: -17.261759,
-        east: -65.577835,
+        south: 5.755485,
+        west: -73.104656,
+        north: 5.877577,
+        east: -72.9504,
     })
 }).then(() => {
     return geojsonToGtfs(
