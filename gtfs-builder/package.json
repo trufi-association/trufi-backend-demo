@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "geojson-to-gtfs": "git+https://github.com/trufi-association/geojson-to-gtfs.git#refactor/update-gtfs-builder",
+    "geojson-to-gtfs": "git+https://github.com/trufi-association/geojson-to-gtfs.git#b548764319d4f76cc09d27285ecc63dfc999ec68",
     "osm-public-transport-export": "git+https://github.com/trufi-association/osm-public-transport-export.git"
   }
 }
