@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "Bolivia-Cochabamba": "node ./Bolivia-Cochabamba/index.js",
+    "Bolivia-LaPaz": "node ./Bolivia-LaPaz/index.js",
     "Colombia-Duitama": "node ./Colombia-Duitama/index.js"
   },
   "keywords": [],
