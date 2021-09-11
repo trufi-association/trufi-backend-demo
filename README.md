@@ -24,7 +24,7 @@
 - Copy the `gtfs.zip` file into your city folder
 
 ## Run OTP
-- Build the Docker image ` docker build -t trufi-demo .`
-- Run the demo `docker run  -v ../absolute_path/Country-City:/app/graphs -p 8080:8080 -p 8081:8081 trufi-demo`
+- Build the Docker image `docker build -t trufi-demo .`
+- Run the demo `docker run  -v {{abosolute path of Country-City}}:/app/graphs -p 8080:8080 -p 8081:8081 trufi-demo`
 - Open in your browser http://localhost:8080/
 - `optional` if you want you can add your city into `docker-compose.yml` following the examples
