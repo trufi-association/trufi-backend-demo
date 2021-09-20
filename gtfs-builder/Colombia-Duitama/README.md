@@ -1,13 +1,14 @@
 ### Count
-**Total**: 52  **Correct**: 48  **With error**: 4
+**Total**: 53  **Correct**: 50  **With error**: 3
 
 
 | Id | Name | Ref | From | To | State |
 | -- | ---- | --- | ---- | -- | ----- |
+[13217723](https://www.openstreetmap.org/relation/13217723) | Directo Duitama-Bogota | undefined | Duitama | Bogotá | [streets not sequential](https://overpass-turbo.eu/?Q=//streets%20not%20sequential%0Arel(13217723);out%20geom;%0Away(378942576);out%20geom;%0Away(378942705);out%20geom;&R)
 [6525438](https://www.openstreetmap.org/relation/6525438) | A1 - Juan Grande - Once de Mayo | A1 | Juan Grande | 11 de Mayo | ✅
 [6525439](https://www.openstreetmap.org/relation/6525439) | A1 - Once de Mayo - Juan Grande | A1 | 11 de Mayo | Juan Grande | ✅
 [6553806](https://www.openstreetmap.org/relation/6553806) | A10 - Barrio Colombia - Ciudadela Industrial | A10 | Barrio Colombia | Ciudadela Industrial | ✅
-[6553807](https://www.openstreetmap.org/relation/6553807) | A10 - Ciudadela Industrial - Barrio Colombia | A10 | Ciudadela Industrial | Barrio Colombia | [streets not sequential](https://overpass-turbo.eu/?Q=//streets%20not%20sequential%0Arel(6553807);out%20geom;%0Away(74587532);out%20geom;%0Away(74587514);out%20geom;&R)
+[6553807](https://www.openstreetmap.org/relation/6553807) | A10 - Ciudadela Industrial - Barrio Colombia | A10 | Ciudadela Industrial | Barrio Colombia | ✅
 [6583715](https://www.openstreetmap.org/relation/6583715) | A11 - Terminal Antiguo - Vereda La Trinidad | A11 | Terminal Antiguo | Vereda La Trinidad | ✅
 [6583741](https://www.openstreetmap.org/relation/6583741) | A11 - Vereda La Trinidad - Terminal Antiguo | A11 | Vereda La Trinidad | Terminal Antiguo | ✅
 [6585999](https://www.openstreetmap.org/relation/6585999) | A12 - Higueras - San Pedro | A12 | Higueras | San Pedro | ✅
@@ -36,7 +37,7 @@
 [6578116](https://www.openstreetmap.org/relation/6578116) | B2 - Parroquia San Cayetano - Pueblito Boyacense | B2 | Parroquia San Cayetano | Pueblito Boyacense | ✅
 [6593890](https://www.openstreetmap.org/relation/6593890) | B3 - Villa Korina - Centro | B3 | Villa Korina | centro | [streets not sequential](https://overpass-turbo.eu/?Q=//streets%20not%20sequential%0Arel(6593890);out%20geom;%0Away(404557343);out%20geom;%0Away(442959578);out%20geom;&R)
 [6593895](https://www.openstreetmap.org/relation/6593895) | B3 - Centro - Villa Korina | B3 | Centro | Villa Korina | ✅
-[6577937](https://www.openstreetmap.org/relation/6577937) | B4 - Colegio Seminario - Villas del mundial | B4 | Colegio Seminario | Villas del mundial | [streets not sequential](https://overpass-turbo.eu/?Q=//streets%20not%20sequential%0Arel(6577937);out%20geom;%0Away(442967422);out%20geom;%0Away(80396759);out%20geom;&R)
+[6577937](https://www.openstreetmap.org/relation/6577937) | B4 - Colegio Seminario - Villas del mundial | B4 | Colegio Seminario | Villas del mundial | ✅
 [6577953](https://www.openstreetmap.org/relation/6577953) | B4 - Villas del mundial - Colegio Seminario | B4 | Villas del mundial | Colegio Seminario | ✅
 [6594023](https://www.openstreetmap.org/relation/6594023) | B5 - Juan Grande - Barrio El Recreo | B5 | Juan Grande | Barrio el Recreo | ✅
 [6594040](https://www.openstreetmap.org/relation/6594040) | B5 - Barrio El Recreo - Juan Grande | B5 | Barrio El Recreo | Juan Grande | ✅
